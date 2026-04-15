@@ -1103,6 +1103,28 @@ section {
     animation: pulse 2s infinite;
 }
 
+body.dark {
+    background: #717274d3;
+    color: #ffffff;
+}
+
+body.dark .header,
+body.dark .navbar,
+body.dark .card-animate,
+body.dark .project-card {
+    background: #717274d3;
+}
+
+body.dark a {
+    color: #9c70fb;
+}
+
+.dark-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
 @media (max-width: 768px) {
     .hero-container,
     .about-content,

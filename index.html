@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eman Fatima - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="navbar">
@@ -26,7 +28,7 @@
                     <span></span>
                 </div>
             </div>
-             <button id="darkToggle" class="dark-btn">🌙</button>
+
         </nav>
     </header>
 
@@ -46,12 +48,13 @@
                         </h1>
                         <h2 class="hero-subtitle">Full Stack Developer & UI/UX Designer</h2>
                         <p class="hero-description">
-                            Transforming ideas into stunning digital experiences. I specialize in creating scalable, 
+                            Transforming ideas into stunning digital experiences. I specialize in creating scalable,
                             high-performance web applications that solve real-world problems and drive business growth.
                         </p>
                         <div class="hero-buttons">
                             <a href="#contact" class="btn btn-primary hover-lift">Hire Me</a>
-                            <a href="Eman-fatima.pdf" class="btn btn-secondary" download="Eman-Fatima-CV.pdf">Download CV</a>
+                            <a href="Eman-fatima.pdf" class="btn btn-secondary" download="Eman-Fatima-CV.pdf">Download
+                                CV</a>
                         </div>
                     </div>
                     <div class="hero-stats">
@@ -78,20 +81,27 @@
                 <div class="about-content">
                     <div class="about-text fade-in-up">
                         <p class="about-intro">
-                            I'm a dedicated <strong>Full Stack Web Developer</strong> with a passion for building digital experiences 
-                            that are as seamless as they are impactful. I specialize in architecting and deploying dynamic, 
+                            I'm a dedicated <strong>Full Stack Web Developer</strong> with a passion for building
+                            digital experiences
+                            that are as seamless as they are impactful. I specialize in architecting and deploying
+                            dynamic,
                             high-performance web applications designed to solve real-world problems.
                         </p>
                         <h3 class="about-subtitle">Why I Do What I Do</h3>
                         <p>
-                            In an era where the web is the primary touchpoint for human connection and business growth, 
-                            I believe a website should be more than just a static page—it should be an interactive experience.
+                            In an era where the web is the primary touchpoint for human connection and business growth,
+                            I believe a website should be more than just a static page—it should be an interactive
+                            experience.
                         </p>
                         <ul class="about-list">
-                            <li class="list-item-animate"><span class="highlight">Front-End Artistry:</span> I craft responsive, pixel-perfect designs that adapt beautifully to any device.</li>
-                            <li class="list-item-animate"><span class="highlight">Back-End Engineering:</span> I thrive on server-side logic, data management, and enterprise-level security.</li>
-                            <li class="list-item-animate"><span class="highlight">Problem Solving:</span> I view every project as an opportunity to innovate and exceed expectations.</li>
-                            <li class="list-item-animate"><span class="highlight">User Experience:</span> I prioritize creating intuitive interfaces that users love to interact with.</li>
+                            <li class="list-item-animate"><span class="highlight">Front-End Artistry:</span> I craft
+                                responsive, pixel-perfect designs that adapt beautifully to any device.</li>
+                            <li class="list-item-animate"><span class="highlight">Back-End Engineering:</span> I thrive
+                                on server-side logic, data management, and enterprise-level security.</li>
+                            <li class="list-item-animate"><span class="highlight">Problem Solving:</span> I view every
+                                project as an opportunity to innovate and exceed expectations.</li>
+                            <li class="list-item-animate"><span class="highlight">User Experience:</span> I prioritize
+                                creating intuitive interfaces that users love to interact with.</li>
                         </ul>
                     </div>
                     <div class="about-image fade-in-up">
@@ -254,7 +264,7 @@
                     <div class="contact-info fade-in-up">
                         <h3>Get In Touch</h3>
                         <p>Have a project in mind? Let's discuss how I can help bring your ideas to life.</p>
-                        
+
                         <div class="contact-details">
                             <div class="contact-item slide-in-left">
                                 <h4>Email</h4>
@@ -270,31 +280,40 @@
                             </div>
                         </div>
 
-                    <form id="contactForm" class="contact-form fade-in-up">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                            <span class="form-line"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                            <span class="form-line"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                            <span class="form-line"></span>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                            <span class="form-line"></span>
-                        </div>
-                        <button type="submit" class="btn btn-primary hover-lift">Send Message</button>
-                    </form>
+                        <form id="contactForm" class="contact-form fade-in-up"
+                        action="https://formsubmit.co/itxeman113@gmail.com" method="POST">
+                            <input type="hidden" name="_subject" value="New Portfolio Message!">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="form-line"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="form-line"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <span class="form-line"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <span class="form-line"></span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary hover-lift">Send Message</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
         </section>
     </main>
 
@@ -318,11 +337,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Eman Fatima. All Rights Reserved. | Designed & Developed with <span class="heart">❤️</span></p>
+                <p>&copy; 2026 Eman Fatima. All Rights Reserved. | Designed & Developed with <span
+                        class="heart">❤️</span></p>
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="scripe.js"></script>
 </body>
+
 </html>
